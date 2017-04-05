@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <filter>
+   <filter-name>FirstFilter</filter-name>
+   <filter-class>FirstFilter</filter-class>
+   <init-param>
+	  <param-name>testpara1</param-name>
+	  <param-value>Initialization Paramter First One</param-value>
+   </init-param>
+</filter>
+<filter>
+   <filter-name>SecondFilter</filter-name>
+   <filter-class>SecondFilter</filter-class>
+   <init-param>
+	  <param-name>testpara2</param-name>
+	  <param-value>Initialization Paramter Second One</param-value>
+   </init-param>
+</filter>
+<filter-mapping>
+   <filter-name>FirstFilter</filter-name>
+   <url-pattern>/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+   <filter-name>SecondFilter</filter-name>
+   <url-pattern>/*</url-pattern>
+</filter-mapping>
+</web-app>
