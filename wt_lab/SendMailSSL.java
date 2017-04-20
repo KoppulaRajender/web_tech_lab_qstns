@@ -7,7 +7,7 @@ public class SendMailSSL
  public static void main(String args[]) 
  {    
      //from,password,to,subject,message  
-     Mailer.send("kalyanjithendra27@gmail.com","americastar","kalyanjithendra23@gmail","sample java mail test","How r u?");  
+     Mailer.send("sender@gmail.com","password","to@gmail"," subject "," message ");  
      //change from, password and to  
  }    
 }
