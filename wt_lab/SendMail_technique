@@ -1,0 +1,9 @@
+to execute java mail through gmail.....
+
+u need to have mail.jar and activation.jar files set in your classpath
+
+and turn on less secure apps button from : 
+Click on this link and click on turn on radio button to allow users to send mail from unknown location. 
+https://www.google.com/settings/security/lesssecureapps
+
+give the user details in the main class
